@@ -48,6 +48,8 @@
 - [Audio Flamingo 2: An Audio-Language Model with Long-Audio Understanding and Expert Reasoning Abilities](https://arxiv.org/abs/2503.03983) — ICML (2025). Improves long-audio understanding and expert-style reasoning.
 - [Mellow: a Small Audio Language Model for Reasoning](https://arxiv.org/abs/2503.08540) — arXiv (2025). Compact audio-language model focused on reasoning rather than pure transcription.
 - [Qwen2.5-Omni Technical Report](https://arxiv.org/abs/2503.20215) — arXiv (2025). Native multimodal model with audio understanding and real-time interaction support.
+- [DIFFA-2: A Practical Diffusion Large Language Model for General Audio Understanding](https://arxiv.org/abs/2601.23161) — arXiv (2026). Diffusion-based audio language model that improves general audio understanding with semantic and acoustic adapters.
+- [UniAudio 2.0: A Unified Audio Language Model with Text-Aligned Factorized Audio Tokenization](https://arxiv.org/abs/2602.04683) — arXiv (2026). Introduces ReasoningCodec and a unified text-audio autoregressive model with strong few-shot and zero-shot generalization.
 
 ### Speech-to-Speech & Real-Time Voice Interaction
 
@@ -72,6 +74,7 @@
 - [SPEAR-TTS: Language Models are Zero-Shot Text to Speech Synthesizers](https://arxiv.org/abs/2302.03540) — arXiv (2023). LLM-style text-to-speech with in-context prompting.
 - [VALL-E: Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers](https://arxiv.org/abs/2301.02111) — arXiv (2023). Neural codec LM for zero-shot personalized TTS.
 - [Voicebox: Text-Guided Multilingual Universal Speech Generation at Scale](https://arxiv.org/abs/2306.15687) — arXiv (2023). Large generative speech model with editing and in-context control.
+- [Audio Language Model for Deepfake Detection Grounded in Acoustic Chain-of-Thought](https://arxiv.org/abs/2603.28021) — arXiv (2026). Proposes CoLMbo-DF, an interpretable audio language model for deepfake speech detection with acoustic chain-of-thought supervision.
 
 ## Benchmarks :fire:
 
@@ -81,6 +84,7 @@
 - [MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark](https://arxiv.org/abs/2410.19168) — ICLR (2025). Large multitask benchmark for audio understanding and reasoning.
 - [AudioMarathon: A Comprehensive Benchmark for Long-Context Audio Understanding and Efficiency in Audio LLMs](https://arxiv.org/abs/2510.07293) — arXiv (2025). Long-context benchmark for realistic long-form audio understanding and efficiency.
 - [VoiceAssistant-Eval: Benchmarking AI Assistants across Listening, Speaking, and Viewing](https://arxiv.org/abs/2509.22651) — arXiv (2025). Broad benchmark for next-generation multimodal voice assistants.
+- [MAEB: Massive Audio Embedding Benchmark](https://arxiv.org/abs/2602.16008) — arXiv (2026). Large-scale benchmark spanning 30 tasks across speech, music, environmental sounds, and cross-modal audio-text reasoning in 100+ languages.
 
 ## Datasets :card_file_box:
 
@@ -102,6 +106,9 @@
 - [soham97/mellow](https://github.com/soham97/mellow) — Code and checkpoints for Mellow.
 - [mbzuai-oryx/LLMVoX](https://github.com/mbzuai-oryx/LLMVoX) — Official LLMVoX implementation.
 - [AIR-Bench/AIR-Bench](https://github.com/AIR-Bench/AIR-Bench) — Benchmark code and evaluation pipeline for AIR-Bench.
+- [yangdongchao/UniAudio2](https://github.com/yangdongchao/UniAudio2) — Official UniAudio 2.0 code and checkpoints.
+- [NKU-HLT/DIFFA](https://github.com/NKU-HLT/DIFFA) — Official DIFFA codebase, checkpoints, and benchmark scripts.
+- [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) — MTEB repository that now hosts MAEB tasks, code, and leaderboard support.
 
 ## Related Awesome Lists
 
